@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_rect_white_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/coins_text"
+        android:layout_width="@dimen/dimen_300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:drawableLeft="@drawable/ic_coins"
+        android:drawablePadding="@dimen/dimen_4dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dimen_16dp"
+        android:text="1000"
+        android:textColor="#ffffce06"
+        android:textSize="@dimen/dimen_20sp" />
+
+    <TextView
+        android:id="@+id/obj_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/img_protect"
+        android:gravity="center"
+        android:text="20"
+        android:textColor="#ff3389ff"
+        android:textSize="@dimen/dimen_16sp" />
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_20dp"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:gravity="center"
+        android:text="@string/ipixel_shield_msg"
+        android:textSize="@dimen/dimen_16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/dimen_12dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/obj_free"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_36dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="@dimen/dimen_12dp"
+            android:background="@drawable/ripple_blue_button_bg"
+            android:gravity="center"
+            android:minWidth="@dimen/min_button_width"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dimen_16dp"
+            android:paddingRight="@dimen/dimen_16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_ad" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dimen_8dp"
+                android:gravity="center"
+                android:text="@string/free"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/obj_coin"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_36dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ripple_green_button_bg"
+            android:gravity="center"
+            android:minWidth="@dimen/min_button_width"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dimen_16dp"
+            android:paddingRight="@dimen/dimen_16dp">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_20dp"
+                android:layout_height="@dimen/dimen_20dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_coins" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dimen_8dp"
+                android:gravity="center"
+                android:text="20"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_36dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/dimen_8dp"
+        android:background="@drawable/ripple_cancel_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:minWidth="@dimen/min_button_width"
+        android:paddingLeft="@dimen/dimen_16dp"
+        android:paddingRight="@dimen/dimen_16dp"
+        android:text="@string/cancel"
+        android:textColor="#ff666666"
+        android:textSize="@dimen/dimen_14sp" />
+</LinearLayout>

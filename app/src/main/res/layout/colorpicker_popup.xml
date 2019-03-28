@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <vn.zenity.football.widget.HueSeekBar
+        android:layout_height="30dp"
+        app:layout_constraintLeft_toLeftOf="@+id/satValView"
+        android:id="@+id/hueSeekBar"
+        app:layout_constraintTop_toBottomOf="@+id/satValView"
+        android:layout_marginTop="8dp"
+        app:layout_constraintRight_toRightOf="@+id/satValView"
+        android:layout_width="200dp" />
+
+    <vn.zenity.football.widget.AlphaSeekBar
+        android:id="@+id/alphaSeekBar"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/satValView"
+        app:layout_constraintRight_toRightOf="@+id/satValView"
+        app:layout_constraintTop_toBottomOf="@+id/hueSeekBar" />
+
+    <vn.zenity.football.widget.SatValView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/satValView"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="8dp" />
+
+</android.support.constraint.ConstraintLayout>

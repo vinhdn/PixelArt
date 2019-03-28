@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "data": [
+    {
+      "name": "Animals",
+      "images": [
+        {
+          "name": "ani12.png",
+          "unlock_coin": 30,
+          "complete_coin": 20
+        },
+        {
+          "name": "ani13.png",
+          "unlock_coin": 30,
+          "complete_coin": 20
+        }
+      ]
+    },
+    {
+      "name": "Art",
+      "images": [
+        {
+          "name": "art1.png",
+          "unlock_coin": 0,
+          "complete_coin": 20
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:id="@+id/drawer_layout"
+    n1:layout_width="fill_parent"
+    n1:layout_height="fill_parent"
+    n1:orientation="vertical">
+
+    <FrameLayout
+        n1:layout_width="fill_parent"
+        n1:layout_height="?actionBarSize"
+        n1:background="@color/white">
+
+        <ImageView
+            n1:id="@+id/back"
+            n1:layout_width="@dimen/dimen_38dp"
+            n1:layout_height="@dimen/dimen_38dp"
+            n1:layout_gravity="center|left"
+            n1:layout_marginLeft="@dimen/dimen_3dp"
+            n1:layout_marginRight="@dimen/dimen_3dp"
+            n1:background="@drawable/ripple_black_circle_bg"
+            n1:clickable="true"
+            n1:onClick="onClick"
+            n1:padding="@dimen/dimen_4dp"
+            n1:src="@drawable/abc_ic_ab_back_material" />
+
+        <ImageView
+            n1:id="@id/home"
+            n1:layout_width="@dimen/dimen_38dp"
+            n1:layout_height="@dimen/dimen_38dp"
+            n1:layout_gravity="center|right"
+            n1:layout_marginLeft="@dimen/dimen_3dp"
+            n1:layout_marginRight="@dimen/dimen_3dp"
+            n1:background="@drawable/ripple_black_circle_bg"
+            n1:clickable="true"
+            n1:onClick="onClick"
+            n1:padding="@dimen/dimen_2dp"
+            n1:src="@drawable/ic_home" />
+    </FrameLayout>
+
+    <ImageView
+        n1:id="@+id/share_animator"
+        n1:layout_width="fill_parent"
+        n1:layout_height="200dp"
+        n1:layout_margin="@dimen/dimen_12dp" />
+
+    <View
+        n1:layout_width="1.0px"
+        n1:layout_height="0.0px"
+        n1:layout_weight="1.0" />
+
+    <LinearLayout
+        n1:layout_width="wrap_content"
+        n1:layout_height="wrap_content"
+        n1:layout_gravity="center_horizontal"
+        n1:gravity="center_vertical"
+        n1:orientation="horizontal">
+
+        <TextView
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:text="@string/share_underlay"
+            n1:textColor="#ff555555"
+            n1:textSize="@dimen/dimen_14sp" />
+
+        <android.support.v7.widget.SwitchCompat
+            n1:id="@+id/switch_button"
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:layout_gravity="center|right"
+            n1:layout_marginLeft="@dimen/dimen_12dp"
+            n1:checked="true" />
+    </LinearLayout>
+
+    <View
+        n1:layout_width="1.0px"
+        n1:layout_height="0.0px"
+        n1:layout_weight="1.0" />
+
+    <LinearLayout
+        n1:id="@+id/copy"
+        n1:layout_width="wrap_content"
+        n1:layout_height="@dimen/dimen_28dp"
+        n1:layout_gravity="center_horizontal"
+        n1:layout_marginTop="@dimen/dimen_12dp"
+        n1:background="@drawable/share_tag_bg"
+        n1:gravity="center_vertical"
+        n1:orientation="horizontal"
+        n1:paddingLeft="@dimen/dimen_24dp"
+        n1:paddingRight="@dimen/dimen_24dp">
+
+        <TextView
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:text="@string/share_copy"
+            n1:textSize="@dimen/dimen_14sp" />
+
+        <TextView
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:text="@string/app_tag"
+            n1:textColor="#ff3ca1f1"
+            n1:textSize="@dimen/dimen_14sp" />
+    </LinearLayout>
+
+    <View
+        n1:layout_width="1.0px"
+        n1:layout_height="0.0px"
+        n1:layout_weight="1.0" />
+
+    <LinearLayout
+        n1:layout_width="wrap_content"
+        n1:layout_height="wrap_content"
+        n1:layout_gravity="center_horizontal"
+        n1:orientation="horizontal">
+
+        <ImageView
+            n1:id="@+id/share_download"
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:layout_margin="@dimen/dimen_12dp"
+            n1:src="@drawable/btn_download" />
+
+        <ImageView
+            n1:id="@+id/share_ins"
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:layout_margin="@dimen/dimen_12dp"
+            n1:src="@drawable/ic_instagram" />
+
+        <ImageView
+            n1:id="@+id/share_more"
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:layout_margin="@dimen/dimen_12dp"
+            n1:src="@drawable/btn_share" />
+    </LinearLayout>
+
+    <View
+        n1:layout_width="1.0px"
+        n1:layout_height="0.0px"
+        n1:layout_weight="1.0" />
+</LinearLayout>

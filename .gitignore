@@ -1,0 +1,4 @@
+build/*
+app/build/*
+.idea/*.xml
+

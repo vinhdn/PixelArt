@@ -1,0 +1,55 @@
+package vn.zenity.football.widget;
+
+import android.content.Context;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.os.Build;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.PopupWindow;
+
+import vn.zenity.football.R;
+import vn.zenity.football.extensions.Tool;
+
+/**
+ * Created by BennyKok on 10/14/2016.
+ */
+
+public class ColorPicker {
+    private PopupWindow popupWindow;
+    private SatValView.OnColorChangeListener listener;
+    private SatValView satValView;
+
+    public ColorPicker(Context c, int startColor, SatValView.OnColorChangeListener listener) {
+        View contentView = LayoutInflater.from(c).inflate(R.layout.colorpicker_popup, null);
+        contentView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        satValView = (SatValView) contentView.findViewById(R.id.satValView);
+        satValView.withHueBar((HueSeekBar) contentView.findViewById(R.id.hueSeekBar));
+        satValView.withAlphaBar((AlphaSeekBar) contentView.findViewById(R.id.alphaSeekBar));
+        satValView.setListener(listener);
+        satValView.setColor(startColor);
+        popupWindow = new PopupWindow(contentView);
+        popupWindow.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#424242")));
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            popupWindow.setElevation(Tool.convertDpToPixel(8,c));
+        }
+        popupWindow.setHeight((int) Tool.convertDpToPixel(292, c));
+        popupWindow.setWidth((int) Tool.convertDpToPixel(216, c));
+    }
+
+    public void show(View anchor) {
+        if (!popupWindow.isShowing())
+            popupWindow.showAsDropDown(anchor, -popupWindow.getWidth() / 2 + anchor.getWidth() / 2, 0);
+        else
+            popupWindow.dismiss();
+    }
+
+    public void setColor(int color) {
+        satValView.setColor(color);
+    }
+
+    public void onConfigChanges() {
+        popupWindow.dismiss();
+    }
+}

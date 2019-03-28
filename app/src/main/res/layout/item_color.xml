@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/color"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="2dp">
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/border"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/border_circle_white_bg"
+        android:tint="@color/gray"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_2dp"
+        app:srcCompat="@drawable/circle_white_bg"
+        android:tint="@color/colorPrimary"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/dimen_20sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/white"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/check"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/check_black"
+        android:tint="@color/white"
+        android:padding="@dimen/dimen_10dp"/>
+</RelativeLayout>

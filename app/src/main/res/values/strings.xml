@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">World Cup Pixel Art</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="share_underlay">Underlay</string>
+    <string name="share_copy">Copy</string>
+    <string name="app_tag">\\#WorldCupPixelArt</string>
+    <string name="main_library">Library</string>
+    <string name="main_mine">Mine</string>
+    <string name="menu_about">About</string>
+    <string name="menu_log_out">Log Out</string>
+    <string name="menu_rate">Rate</string>
+    <string name="menu_sync">Sync</string>
+    <string name="menu_sync_tip">Sync game data with server</string>
+    <string name="menu_vibrate">Vibrate</string>
+    <string name="mine_nothing">Nothing here...</string>
+    <string name="mine_login">Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="free">Free</string>
+    <string name="ipixel_shield_msg">Watch an Ad or pay %1$d gold to get %2$d shields.</string>
+    <string name="unlocked_start">Start</string>
+    <string name="locked_msg">Unlock with %d gold</string>
+    <string name="save">Save</string>
+    <string name="user">User</string>
+    <string name="default_notification_channel_id" translatable="false">worldcup_fcm_default_channel</string>
+    <string name="default_notification_channel_name">Worldcup</string>
+</resources>

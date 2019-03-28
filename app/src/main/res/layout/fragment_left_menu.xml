@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:overScrollMode="ifContentScrolls"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dimen_12dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_20dp"
+            android:layout_marginLeft="@dimen/dimen_16dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:src="@drawable/drawer_logo" />
+
+        <FrameLayout
+            android:id="@+id/menu_vibrate"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen_48dp"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:drawableLeft="@drawable/ic_vibrate"
+                android:drawablePadding="@dimen/dimen_32dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/dimen_16dp"
+                android:text="@string/menu_vibrate"
+                android:textSize="@dimen/dimen_14sp" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/vibrate_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="@dimen/dimen_16dp"
+                android:checked="true" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/menu_rate"
+            style="@style/left_menu_item"
+            android:drawableLeft="@drawable/ic_rate"
+            android:text="@string/menu_rate" />
+
+        <TextView
+            android:id="@+id/menu_about"
+            style="@style/left_menu_item"
+            android:drawableLeft="@drawable/ic_about"
+            android:text="@string/menu_about" />
+
+        <LinearLayout
+            android:id="@+id/menu_sync"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen_48dp"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_16dp"
+                android:layout_marginRight="@dimen/dimen_32dp"
+                android:src="@drawable/ic_synchronize" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menu_sync"
+                    android:textSize="@dimen/dimen_14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menu_sync_tip"
+                    android:textColor="#ff666666"
+                    android:textSize="@dimen/dimen_12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/menu_logout"
+            style="@style/left_menu_item"
+            android:drawableLeft="@drawable/ic_log_out"
+            android:text="@string/menu_log_out"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,525 @@
+{
+  "version": "1.0",
+  "data": [
+    {
+      "name": "Football Player",
+      "images": [
+        {
+          "name": "realplayer/ronaldo01.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        },
+        {
+          "name": "realplayer/messi01.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        },
+        {
+          "name": "realplayer/luisSuarez.png",
+          "unlock_coin": 50,
+          "complete_coin": 180
+        },
+        {
+          "name": "realplayer/akinfeev.png",
+          "unlock_coin": 0,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/timCahill.png",
+          "unlock_coin": 0,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/SonHungMin.png",
+          "unlock_coin": 100,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/mayayoshida.png",
+          "unlock_coin": 0,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/DavisOspina.png",
+          "unlock_coin": 0,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/JamesRodriguez.png",
+          "unlock_coin": 0,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/KeylorNavas.png",
+          "unlock_coin": 0,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/Danilo.png",
+          "unlock_coin": 0,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/Ederson.png",
+          "unlock_coin": 0,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/Marcelo.png",
+          "unlock_coin": 0,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/Marquinhos.png",
+          "unlock_coin": 0,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/ThiagoSilva.png",
+          "unlock_coin": 0,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/Willian.png",
+          "unlock_coin": 0,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/messi02.png",
+          "unlock_coin": 200,
+          "complete_coin": 220
+        },
+        {
+          "name": "realplayer/AndreasChristensen.png",
+          "unlock_coin": 0,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/ChristianEriksen.png",
+          "unlock_coin": 0,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/JavierHernandez.png",
+          "unlock_coin": 0,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/KasperSchmeichel.png",
+          "unlock_coin": 50,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/MohamedElneny.png",
+          "unlock_coin": 0,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/LeeSeungWoo.png",
+          "unlock_coin": 0,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/RadamelFalcao.png",
+          "unlock_coin": 50,
+          "complete_coin": 150
+        },
+        {
+          "name": "realplayer/RobertLewandowski.png",
+          "unlock_coin": 50,
+          "complete_coin": 150
+        },
+        {
+          "name": "player/JuanGuillermoCuadrado.png",
+          "unlock_coin": 0,
+          "complete_coin": 100
+        },
+        {
+          "name": "player/MohamedSalah.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-3.png",
+          "unlock_coin": 50,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-4.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-5.png",
+          "unlock_coin": 50,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-25.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-7.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-8.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-9.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-10.png",
+          "unlock_coin": 0,
+          "complete_coin": 20
+        },
+        {
+          "name": "player/u-11.png",
+          "unlock_coin": 60,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-12.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-13.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-14.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-15.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-16.png",
+          "unlock_coin": 70,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-17.png",
+          "unlock_coin": 0,
+          "complete_coin": 20
+        },
+        {
+          "name": "player/u-18.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-19.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-20.png",
+          "unlock_coin": 50,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-21.png",
+          "unlock_coin": 20,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-22.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-23.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-24.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-6.png",
+          "unlock_coin": 50,
+          "complete_coin": 200
+        },
+        {
+          "name": "player/u-26.png",
+          "unlock_coin": 0,
+          "complete_coin": 200
+        }
+      ]
+    },
+    {
+      "name": "Flags",
+      "images": [
+        {
+          "name": "flag/flag2_407.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_454.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_48.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_56.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_104.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_122.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_190.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_198.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_196.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_240.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_250.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_311.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_266.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_316.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_384.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_398.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_iran.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_444.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_470.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_514.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_580.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_594.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_598.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_608.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_610.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_656.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_662.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_679.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_728.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_722.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_798.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        },
+        {
+          "name": "flag/flag2_256.png",
+          "unlock_coin": 0,
+          "complete_coin": 70
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "images": [
+        {
+          "name": "ballColor.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        },
+        {
+          "name": "cup.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        },
+        {
+          "name": "football-50.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        },
+        {
+          "name": "sketch/pl4_01.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        },
+        {
+          "name": "sketch/pl4_02.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        },
+        {
+          "name": "sketch/pl4_03.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        },
+        {
+          "name": "sketch/pl4_04.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        },
+        {
+          "name": "sketch/pl4_05.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        },
+        {
+          "name": "sketch/pl4_06.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        },
+        {
+          "name": "sketch/pl4_07.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        },
+        {
+          "name": "sketch/pl4_08.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        },
+        {
+          "name": "sketch/pl4_09.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        },
+        {
+          "name": "sketch/pl4_10.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        },
+        {
+          "name": "sketch/pl4_11.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        },
+        {
+          "name": "sketch/pl4_12.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        },
+        {
+          "name": "sketch/pl4_13.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        },
+        {
+          "name": "sketch/pl4_14.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        },
+        {
+          "name": "sketch/pl4_15.png",
+          "unlock_coin": 0,
+          "complete_coin": 50
+        }
+      ]
+    }
+  ]
+}

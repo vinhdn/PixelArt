@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_rect_white_bg"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="@dimen/dimen_300dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dimen_4dp"
+        android:paddingLeft="@dimen/dimen_12dp"
+        android:paddingRight="@dimen/dimen_12dp"
+        android:paddingTop="@dimen/dimen_4dp">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/pic_delete"
+            style="@style/icon_item"
+            android:tint="@color/gray"
+            android:src="@drawable/dustbin" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/pic_share"
+                style="@style/icon_item"
+                android:tint="@color/gray"
+                android:src="@drawable/share_with_friends" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/rewardCoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task Reward: +50 CUP"
+        android:gravity="center"
+        android:paddingLeft="@dimen/dimen_10dp"
+        android:paddingRight="@dimen/dimen_10dp"
+        android:paddingTop="@dimen/dimen_2dp"
+        android:paddingBottom="@dimen/dimen_2dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:background="@drawable/shape_rounded_orange"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="@dimen/dimen_300dp"
+        android:layout_height="@dimen/dimen_300dp"
+        android:paddingRight="@dimen/dimen_10dp"
+        android:paddingLeft="@dimen/dimen_10dp"
+        android:scaleType="centerInside"/>
+
+    <LinearLayout
+        android:id="@+id/positive"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_36dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:background="@drawable/ripple_color_app_button_bg"
+        android:gravity="center"
+        android:minWidth="@dimen/button_width"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dimen_16dp"
+        android:paddingRight="@dimen/dimen_16dp">
+
+        <ImageView
+            android:id="@+id/ivIconStart"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/edit" />
+
+        <TextView
+            android:id="@+id/tvStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dimen_8dp"
+            android:gravity="center"
+            android:text="@string/unlocked_start"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_36dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/dimen_8dp"
+        android:layout_marginTop="@dimen/dimen_8dp"
+        android:background="@drawable/ripple_cancel_bg"
+        android:gravity="center"
+        android:minWidth="@dimen/button_width"
+        android:paddingLeft="@dimen/dimen_16dp"
+        android:paddingRight="@dimen/dimen_16dp"
+        android:text="@string/cancel"
+        android:textColor="#ff989898"
+        android:textSize="@dimen/dimen_14sp" />
+</LinearLayout>

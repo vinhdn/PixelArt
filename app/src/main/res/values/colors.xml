@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#f9ae49</color>
+    <color name="colorPrimary">#4167B1</color>
+    <color name="colorPrimaryDark">#2F477B</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="black48">#ff484848</color>
+    <color name="black55">#ff555555</color>
+    <color name="blue">#ff55c3e6</color>
+    <color name="default_color">#ff565c74</color>
+    <color name="gold">#ffffd700</color>
+    <color name="gray">#ff808080</color>
+    <color name="green">#ff008000</color>
+    <color name="null_color">#00000000</color>
+    <color name="orange">#ffffa500</color>
+    <color name="pink">#ffffc0cb</color>
+    <color name="purple">#ff800080</color>
+    <color name="red">#ffff0000</color>
+    <color name="red63">#ffff630d</color>
+    <color name="white20">#20ffffff</color>
+    <color name="white40">#40ffffff</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="selected_color">#ff3ca1f1</color>
+
+
+
+    <!--Cài đặt giao diện ứng dụng-->
+
+    <!--Màu mặc định của text trên thanh tabbar (All, Animal, Nature...)-->
+    <color name="tabTextColor">#6D6E71</color>
+
+    <!--Màu của text được chọn trên thanh tabbar (All, Animal, Nature...)-->
+    <color name="tabTextSelectedColor">#4167B1</color>
+
+    <!--Màu của background tabbar (All, Animal, Nature...)-->
+    <color name="tabBackgroundColor">#F1F2F2</color>
+
+    <!--Màu Tabbar bên đưới của màn hình hôm (Library, My Work, More)-->
+    <color name="tabbarBottomColor">#FDFDFD</color>
+
+    <!--Màu của Toolbar trên đầu của mỗi màn hình -->
+    <color name="toolbarColor">#ffffff</color>
+
+    <!--Màu nền (background) của danh sách các ảnh-->
+    <color name="listBackgroundColor">#ffffff</color>
+
+    <color name="colorTextToolbar">#4167B1</color>
+</resources>

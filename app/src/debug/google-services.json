@@ -1,0 +1,116 @@
+{
+  "project_info": {
+    "project_number": "10603298502",
+    "firebase_url": "https://wcpixart.firebaseio.com",
+    "project_id": "wcpixart",
+    "storage_bucket": "wcpixart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10603298502:android:36619f10da492040",
+        "android_client_info": {
+          "package_name": "vn.zenity.pixel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10603298502-fjkdco2c4ngq9kb07fnqehhv863kr2rl.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "10603298502-fjkdco2c4ngq9kb07fnqehhv863kr2rl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOUYHn0LV8LgkaPpSQqsHu12gpVK1pBlY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10603298502:android:e8e396fafbfbef22",
+        "android_client_info": {
+          "package_name": "vn.zenity.worldcup.pixel.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10603298502-fjkdco2c4ngq9kb07fnqehhv863kr2rl.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "10603298502-fjkdco2c4ngq9kb07fnqehhv863kr2rl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOUYHn0LV8LgkaPpSQqsHu12gpVK1pBlY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10603298502:android:429d4e4610819431",
+        "android_client_info": {
+          "package_name": "vn.zenity.worldcup.pixel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10603298502-fjkdco2c4ngq9kb07fnqehhv863kr2rl.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "10603298502-fjkdco2c4ngq9kb07fnqehhv863kr2rl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOUYHn0LV8LgkaPpSQqsHu12gpVK1pBlY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
